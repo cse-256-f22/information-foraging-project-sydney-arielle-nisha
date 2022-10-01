@@ -26,7 +26,7 @@
     width: 30%;
     margin-bottom: 1.5em; 
     vertical-align:top;
-    height: 400px;
+    height: 450px;
    
 }
 
@@ -46,6 +46,7 @@
     overflow-wrap: normal;
 }
 .staff-mini-bio{
+
     font-size: 1rem;
     line-height: 1.1;
     font-weight: 100;
