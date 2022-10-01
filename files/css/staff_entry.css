@@ -1,7 +1,7 @@
 .staff-qualifications {
     font-size: 1.2rem;
     line-height: 1.2;
-    font-weight: 100;
+    font-weight: 300;
     word-wrap: normal;
 }
 
@@ -18,12 +18,16 @@
 }
 
 .individual-staff-member {
+    display: inline-block;
     padding: 1.5em;
     border-width: 1px;
     border-color: #eee;
     border-style: solid;
-    width: 100%;
-    margin-bottom: 1.5em;
+    width: 30%;
+    margin-bottom: 1.5em; 
+    vertical-align:top;
+    height: 400px;
+   
 }
 
 .individual-staff-member,
@@ -40,4 +44,10 @@
 .individual-staff-member-data {
     float: left;
     overflow-wrap: normal;
+}
+.staff-mini-bio{
+    font-size: 1rem;
+    line-height: 1.1;
+    font-weight: 100;
+    word-wrap: normal;
 }
