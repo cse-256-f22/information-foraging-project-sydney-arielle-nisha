@@ -13,6 +13,8 @@ header {
 #main-menu-container {
     width: 100%;
     background-color: #3d3d3d;
+    /* position: relative;
+    margin-top: 0px; */
 }
 
 .container {
@@ -152,5 +154,5 @@ header a {
     position: fixed;
     top: 0;
     width: 100%;
-    margin-top: 43px;
+    margin-top: 330px;
   }
