@@ -18,7 +18,7 @@ const setup = async () => {
     const scenario = scenarios.find((scen) => scen.tag === params.tag);
     if (!params.sandbox) {
         if (scenario === null || scenario === undefined) {
-            alert('This HIT is broken and cannot be completed at this time.');
+           // alert('This HIT is broken and cannot be completed at this time.');
         } else {
             Tracker.loadScenario(scenario as Scenario);
         }

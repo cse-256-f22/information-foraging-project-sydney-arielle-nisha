@@ -21,14 +21,14 @@ try {
         params.tag = qParams.get('tag') as string;
     } else {
         console.log('missing query params');
-        alert(
-            'This HIT is missing neccessary metadata, sorry for the inconvenience. Please contact the Requester as this is not intended to happen.'
-        );
+        // alert(
+        //     'This HIT is missing neccessary metadata, sorry for the inconvenience. Please contact the Requester as this is not intended to happen.'
+        // );
     }
 } catch (e) {
     console.log(e);
-    alert(e);
-    alert(
-        'This HIT is broken, sorry for the inconvenience. Please contact the Requester as this is not intended to happen.'
-    );
+    // alert(e);
+    // alert(
+    //     'This HIT is broken, sorry for the inconvenience. Please contact the Requester as this is not intended to happen.'
+    // );
 }

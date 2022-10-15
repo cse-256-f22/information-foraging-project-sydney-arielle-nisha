@@ -13,8 +13,6 @@ header {
 #main-menu-container {
     width: 100%;
     background-color: #3d3d3d;
-    /* position: relative;
-    margin-top: 0px; */
 }
 
 .container {
@@ -22,6 +20,7 @@ header {
     max-width: 71em;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 #washu-logo {
@@ -154,5 +153,5 @@ header a {
     position: fixed;
     top: 0;
     width: 100%;
-    margin-top: 330px;
+    margin-top: 43px;
   }
