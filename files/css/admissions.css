@@ -125,3 +125,7 @@ main li {
     list-style-type: disc;
     margin-bottom: 15px;
 }
+
+a {
+    color: rgb(208, 28, 41);
+}
