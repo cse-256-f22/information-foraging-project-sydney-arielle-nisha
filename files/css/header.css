@@ -7,7 +7,7 @@ header {
     height: 2.625rem;
     overflow: hidden;
     padding-left: 4%;
-    padding-top: 7px;
+
 }
 
 #main-menu-container {
@@ -154,3 +154,10 @@ header a {
     width: 100%;
     margin-top: 43px;
   }
+
+.up{
+    padding-top:0px
+}
+.down {
+    padding-top:300px
+}
