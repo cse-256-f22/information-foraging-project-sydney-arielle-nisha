@@ -19,19 +19,19 @@ export function doSomething() {
   }
 }
 
-var topBannerDown = document.getElementById("mturk-top-banner-drop-down-button")
+// var topBannerDown = document.getElementById("mturk-top-banner-drop-down-button")
 
-topBannerDown.addEventListener("click", function(){
-  console.log("down")
-  document.getElementById("wustl-branding").classList.remove("up")
-  document.getElementById("wustl-branding").classList.add("down")
-})
+// topBannerDown.addEventListener("click", function(){
+//   console.log("down")
+//   document.getElementById("wustl-branding").classList.remove("up")
+//   document.getElementById("wustl-branding").classList.add("down")
+// })
 
-  var topBannerUp = document.getElementById("mturk-top-banner-collapse-button")
+//   var topBannerUp = document.getElementById("mturk-top-banner-collapse-button")
 
-  topBannerUp.addEventListener("click", function(){
-    console.log("up")
-    document.getElementById("wustl-branding").classList.remove("down")
-    document.getElementById("wustl-branding").classList.add("up")})
+//   topBannerUp.addEventListener("click", function(){
+//     console.log("up")
+//     document.getElementById("wustl-branding").classList.remove("down")
+//     document.getElementById("wustl-branding").classList.add("up")})
 
   
