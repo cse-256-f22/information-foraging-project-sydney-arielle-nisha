@@ -1,6 +1,7 @@
 @import url("common.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
+@import url("slideshow.css");
 .announcements h4 {
     margin-top: 1em;
     color: rgb(208, 28, 41);
