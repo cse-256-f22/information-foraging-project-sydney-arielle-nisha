@@ -109,3 +109,24 @@ main hr {
     background-color: #eee;
     height: 1px;
 }
+
+#button {
+    background-color: #a8d7ff;
+    color: black;
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    /* display:fixed; */
+    width: 11.5rem;
+    height: 4rem;
+    border: black 3px;
+  }
+  
+  #button:hover {opacity: 1}
