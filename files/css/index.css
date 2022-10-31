@@ -147,6 +147,29 @@ main hr {
   
   #button:hover {opacity: 1}
 
+
+  /* alert popup code help from w3 schools */
+  .alert {
+    padding: 20px;
+    background-color: #cf2525;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
 #school-day{
     /* text-align: center;
     background-color: #eee;
@@ -162,3 +185,4 @@ main hr {
     width: 560px; 
     margin-right: 40px; 
 }
+
